@@ -50,12 +50,12 @@ public class JavaApplication1 {
         
         if (edad >65){
             
-            descuento = (porcentaje * valorTotal);
+            descuento = (porcentaje * valorTotal) / 100;
             valorTotal = valorTotal - descuento;
          
         }            
         
-        System.out.printf("el valor a pagar es:" + "%.2f/n",
+        System.out.printf("el valor a pagar es:" + "%.2f",
                 valorTotal);
         
         

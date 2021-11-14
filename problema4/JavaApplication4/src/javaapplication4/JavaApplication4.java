@@ -3,21 +3,25 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication2;
+package javaapplication4;
 
 import java.util.Scanner;
 
+        
 /**
  *
  * @author SALAA
  */
-public class JavaApplication2 {
+public class JavaApplication4 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        Scanner entrada = new Scanner (System.in);
+        
         int numero_dias;
         double precio_habitacion;
         double subtotal;
@@ -63,9 +67,12 @@ public class JavaApplication2 {
 
         }
 
-        System.out.printf("El subtotal a pagar es: %.2f", subtotal);
+        System.out.printf("El subtotal a pagar es: %.2f\n", subtotal);
         System.out.printf("El total a pagar es: %.2f", total_pagar);
 
     }
 
 }
+    
+    
+
